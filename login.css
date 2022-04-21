@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+h2,h3,p{margin:0;}
+
+article{ 
+    border:10px solid #000; 
+    margin:100px auto;
+    padding:60px;
+    width:600px;
+    text-align: center;
+}
+article h2{}
+article h3{font-weight: normal; font-size:1em;}
+
+.login{
+    border-top:1px solid #000; 
+    margin:30px 0;   
+}
+.login > p:nth-of-type(1) input{
+    width:100%;
+    padding:14px;
+    border-width:0;
+    border-bottom:1px solid #000;    
+}
+.login > p:nth-of-type(2) {
+    text-align: right; padding:10px 0;
+}
+.login input[type='submit'] {
+    background-color:#555; color:#fff;
+    border:none; padding:10px 30px;
+}
+
+.btn a{color:#555;}
+.btn a:nth-of-type(1):after{ 
+    content: '|'; padding:0 10px; 
+}
